@@ -1,4 +1,4 @@
-# Crop Disease Detection from Leaf Images
+# CTS Hackathon - Crop Disease Detection from Leaf Images
 
 Seven CNN architectures compared on the full **PlantVillage** dataset — 54,282 labelled
 leaf images, 14 crop species, 38 disease classes — trained under identical settings on a
