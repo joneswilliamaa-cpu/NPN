@@ -1,0 +1,2 @@
+,model,params_15class,test_acc,test_macro_f1,test_macro_recall,test_macro_precision,val_macro_f1,best_epoch,train_minutes,data_source
+1,squeezenet1_1,730191,0.979625,0.979507,0.980852,0.979115,0.981627,18,20.33,clean (repaired in Part A of this notebook)

@@ -1,0 +1,27 @@
+# ---- datasets (multi-GB, get them from source instead - see README) ----
+plantvillage_full/
+data_split_38/
+*.zip
+
+# ---- model weights (GitHub blocks files >100 MB; vgg16 alone is 513 MB) ----
+*.pth
+*.pt
+
+# ---- large intermediate data ----
+crop-disease*/cache/
+crop-disease*/raw/
+crop-disease*/manifest.csv
+crop-disease*/manifest_clean.csv
+crop-disease*/excluded_images.csv
+
+# ---- throwaway runs ----
+crop-disease-smoke/
+smoke_test.ipynb
+backup_38_run1/
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/

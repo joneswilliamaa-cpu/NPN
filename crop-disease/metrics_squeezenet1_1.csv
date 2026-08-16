@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+squeezenet1_1,train,14434,0.032373,0.988499,0.987883,0.989213,0.988406,clean (repaired in Part A of this notebook)
+squeezenet1_1,val,3096,0.048574,0.980297,0.98161,0.982157,0.981627,clean (repaired in Part A of this notebook)
+squeezenet1_1,test,3092,0.055578,0.979625,0.979115,0.980852,0.979507,clean (repaired in Part A of this notebook)

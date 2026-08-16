@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+alexnet,train,37997,0.02834,0.990526,0.988623,0.992724,0.99048,clean (repaired in Part A of this notebook)
+alexnet,val,8149,0.044452,0.98736,0.982576,0.987087,0.984438,clean (repaired in Part A of this notebook)
+alexnet,test,8136,0.055976,0.983161,0.978015,0.983583,0.980565,clean (repaired in Part A of this notebook)

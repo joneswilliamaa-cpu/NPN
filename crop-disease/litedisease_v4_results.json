@@ -1,0 +1,68 @@
+{
+  "model": "litedisease_v4",
+  "arch": "LiteDiseaseNetV4 (mobilenet_v2 dual-branch)",
+  "params_total": 5438786,
+  "seed": 42,
+  "epochs": 25,
+  "lr_backbone": 3e-05,
+  "lr_head": 0.0003,
+  "label_smoothing": 0.1,
+  "batch_size": 32,
+  "img_size": 224,
+  "class_weighted": true,
+  "amp": true,
+  "best_epoch": 23,
+  "best_val_macro_f1": 0.99299,
+  "n_classes": 15,
+  "class_names": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy"
+  ],
+  "data_source": "clean (repaired in Part A of crop_disease_pipeline.ipynb)",
+  "splits": {
+    "train": {
+      "loss": 1.006046,
+      "accuracy": 0.998199,
+      "macro_precision": 0.997894,
+      "macro_recall": 0.998463,
+      "macro_f1": 0.998174,
+      "n": 14434
+    },
+    "val": {
+      "loss": 1.00486,
+      "accuracy": 0.993863,
+      "macro_precision": 0.99224,
+      "macro_recall": 0.993873,
+      "macro_f1": 0.99299,
+      "n": 3096
+    },
+    "test": {
+      "loss": 1.014816,
+      "accuracy": 0.989004,
+      "macro_precision": 0.983413,
+      "macro_recall": 0.988615,
+      "macro_f1": 0.985679,
+      "n": 3092
+    },
+    "test_tta": {
+      "n": 3092,
+      "accuracy": 0.991591,
+      "macro_precision": 0.985689,
+      "macro_recall": 0.991817,
+      "macro_f1": 0.988462
+    }
+  }
+}

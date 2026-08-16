@@ -1,0 +1,17 @@
+{
+  "Tomato__Tomato_YellowLeaf__Curl_Virus": 0.428436,
+  "Tomato_Bacterial_spot": 0.64625,
+  "Tomato_Late_blight": 0.724053,
+  "Tomato_Septoria_leaf_spot": 0.776022,
+  "Tomato_Spider_mites_Two_spotted_spider_mite": 0.820347,
+  "Tomato_healthy": 0.867689,
+  "Pepper__bell___healthy": 0.929726,
+  "Tomato__Target_Spot": 0.978908,
+  "Potato___Early_blight": 1.374667,
+  "Potato___Late_blight": 1.374667,
+  "Tomato_Early_blight": 1.374667,
+  "Pepper__bell___Bacterial_spot": 1.380583,
+  "Tomato_Leaf_Mold": 1.444845,
+  "Tomato__Tomato_mosaic_virus": 3.686845,
+  "Potato___healthy": 9.077987
+}

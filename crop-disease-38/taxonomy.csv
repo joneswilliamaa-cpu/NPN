@@ -1,0 +1,39 @@
+class_raw,crop,disease,is_healthy,class_id
+Apple___Apple_scab,Apple,Apple scab,False,0
+Apple___Black_rot,Apple,Black rot,False,1
+Apple___Cedar_apple_rust,Apple,Cedar apple rust,False,2
+Apple___healthy,Apple,healthy,True,3
+Blueberry___healthy,Blueberry,healthy,True,4
+Cherry_(including_sour)___Powdery_mildew,Cherry (including sour),Powdery mildew,False,5
+Cherry_(including_sour)___healthy,Cherry (including sour),healthy,True,6
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,Corn (maize),Cercospora leaf spot Gray leaf spot,False,7
+Corn_(maize)___Common_rust_,Corn (maize),Common rust,False,8
+Corn_(maize)___Northern_Leaf_Blight,Corn (maize),Northern Leaf Blight,False,9
+Corn_(maize)___healthy,Corn (maize),healthy,True,10
+Grape___Black_rot,Grape,Black rot,False,11
+Grape___Esca_(Black_Measles),Grape,Esca (Black Measles),False,12
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot),Grape,Leaf blight (Isariopsis Leaf Spot),False,13
+Grape___healthy,Grape,healthy,True,14
+Orange___Haunglongbing_(Citrus_greening),Orange,Haunglongbing (Citrus greening),False,15
+Peach___Bacterial_spot,Peach,Bacterial spot,False,16
+Peach___healthy,Peach,healthy,True,17
+"Pepper,_bell___Bacterial_spot","Pepper, bell",Bacterial spot,False,18
+"Pepper,_bell___healthy","Pepper, bell",healthy,True,19
+Potato___Early_blight,Potato,Early blight,False,20
+Potato___Late_blight,Potato,Late blight,False,21
+Potato___healthy,Potato,healthy,True,22
+Raspberry___healthy,Raspberry,healthy,True,23
+Soybean___healthy,Soybean,healthy,True,24
+Squash___Powdery_mildew,Squash,Powdery mildew,False,25
+Strawberry___Leaf_scorch,Strawberry,Leaf scorch,False,26
+Strawberry___healthy,Strawberry,healthy,True,27
+Tomato___Bacterial_spot,Tomato,Bacterial spot,False,28
+Tomato___Early_blight,Tomato,Early blight,False,29
+Tomato___Late_blight,Tomato,Late blight,False,30
+Tomato___Leaf_Mold,Tomato,Leaf Mold,False,31
+Tomato___Septoria_leaf_spot,Tomato,Septoria leaf spot,False,32
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato,Spider mites Two-spotted spider mite,False,33
+Tomato___Target_Spot,Tomato,Target Spot,False,34
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato,Tomato Yellow Leaf Curl Virus,False,35
+Tomato___Tomato_mosaic_virus,Tomato,Tomato mosaic virus,False,36
+Tomato___healthy,Tomato,healthy,True,37

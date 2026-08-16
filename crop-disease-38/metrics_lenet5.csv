@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+lenet5,train,37997,0.88436,0.740269,0.674475,0.735587,0.683636,clean (repaired in Part A of this notebook)
+lenet5,val,8149,0.885931,0.73371,0.665067,0.727071,0.672347,clean (repaired in Part A of this notebook)
+lenet5,test,8136,0.901963,0.731686,0.661736,0.729177,0.671396,clean (repaired in Part A of this notebook)

@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+googlenet,train,37997,0.003569,0.998947,0.998776,0.99905,0.998909,clean (repaired in Part A of this notebook)
+googlenet,val,8149,0.012086,0.996441,0.995543,0.995685,0.995573,clean (repaired in Part A of this notebook)
+googlenet,test,8136,0.012919,0.996436,0.994635,0.995325,0.994965,clean (repaired in Part A of this notebook)

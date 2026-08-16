@@ -1,0 +1,16 @@
+model,split,class,support,precision,recall,f1,recall_ci95
+squeezenet1_1,val,Pepper__bell___Bacterial_spot,150,1.0,0.986667,0.993289,0.0184
+squeezenet1_1,val,Pepper__bell___healthy,222,0.986667,1.0,0.993289,0.0
+squeezenet1_1,val,Potato___Early_blight,150,0.974026,1.0,0.986842,0.0
+squeezenet1_1,val,Potato___Late_blight,150,0.993243,0.98,0.986577,0.0224
+squeezenet1_1,val,Potato___healthy,23,1.0,1.0,1.0,0.0
+squeezenet1_1,val,Tomato_Bacterial_spot,319,0.981308,0.987461,0.984375,0.0122
+squeezenet1_1,val,Tomato_Early_blight,150,0.941935,0.973333,0.957377,0.0258
+squeezenet1_1,val,Tomato_Late_blight,285,0.975352,0.97193,0.973638,0.0192
+squeezenet1_1,val,Tomato_Leaf_Mold,143,0.986207,1.0,0.993056,0.0
+squeezenet1_1,val,Tomato_Septoria_leaf_spot,266,0.973485,0.966165,0.969811,0.0217
+squeezenet1_1,val,Tomato_Spider_mites_Two_spotted_spider_mite,252,0.972549,0.984127,0.978304,0.0154
+squeezenet1_1,val,Tomato__Target_Spot,211,0.989474,0.890995,0.937656,0.0421
+squeezenet1_1,val,Tomato__Tomato_YellowLeaf__Curl_Virus,481,0.997908,0.991684,0.994786,0.0081
+squeezenet1_1,val,Tomato__Tomato_mosaic_virus,56,1.0,1.0,1.0,0.0
+squeezenet1_1,val,Tomato_healthy,238,0.952,1.0,0.97541,0.0

@@ -1,0 +1,16 @@
+class_raw,crop,disease,is_healthy,class_id
+Pepper__bell___Bacterial_spot,Pepper bell,Bacterial spot,False,0
+Pepper__bell___healthy,Pepper bell,healthy,True,1
+Potato___Early_blight,Potato,Early blight,False,2
+Potato___Late_blight,Potato,Late blight,False,3
+Potato___healthy,Potato,healthy,True,4
+Tomato_Bacterial_spot,Tomato,Bacterial spot,False,5
+Tomato_Early_blight,Tomato,Early blight,False,6
+Tomato_Late_blight,Tomato,Late blight,False,7
+Tomato_Leaf_Mold,Tomato,Leaf Mold,False,8
+Tomato_Septoria_leaf_spot,Tomato,Septoria leaf spot,False,9
+Tomato_Spider_mites_Two_spotted_spider_mite,Tomato,Spider mites Two spotted spider mite,False,10
+Tomato__Target_Spot,Tomato,Target Spot,False,11
+Tomato__Tomato_YellowLeaf__Curl_Virus,Tomato,Tomato YellowLeaf Curl Virus,False,12
+Tomato__Tomato_mosaic_virus,Tomato,Tomato mosaic virus,False,13
+Tomato_healthy,Tomato,healthy,True,14

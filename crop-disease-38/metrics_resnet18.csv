@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+resnet18,train,37997,0.002427,0.999105,0.998854,0.999129,0.998988,clean (repaired in Part A of this notebook)
+resnet18,val,8149,0.00719,0.997055,0.996275,0.99689,0.996556,clean (repaired in Part A of this notebook)
+resnet18,test,8136,0.012361,0.996559,0.99615,0.99458,0.995318,clean (repaired in Part A of this notebook)

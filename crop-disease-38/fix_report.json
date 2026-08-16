@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "hamming": 4,
+  "source": "C:\\Users\\Welcome\\Desktop\\npn\\plantvillage_full\\raw\\color",
+  "baseline_kind": "a naive stratified split (what you would have built)",
+  "images_in": 54305,
+  "images_usable": 54282,
+  "images_removed": 23,
+  "classes": 38,
+  "crops": 14,
+  "groups": 51790,
+  "split_counts": {
+    "train": 37997,
+    "val": 8149,
+    "test": 8136
+  },
+  "leakage_before": {
+    "identical_files_across_splits": 11,
+    "same_capture_across_splits": 985,
+    "same_leaf_across_splits": 22,
+    "near_identical_pairs_across_splits": 113,
+    "contaminated_eval_images": 1228,
+    "eval_images": 16293,
+    "contamination_pct": 7.537
+  },
+  "leakage_after": {
+    "identical_files_across_splits": 0,
+    "same_capture_across_splits": 0,
+    "same_leaf_across_splits": 0,
+    "near_identical_pairs_across_splits": 0,
+    "contaminated_eval_images": 0,
+    "eval_images": 16285,
+    "contamination_pct": 0.0
+  },
+  "verdict": "PASSED"
+}

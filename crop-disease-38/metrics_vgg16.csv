@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+vgg16,train,37997,0.009976,0.996737,0.995612,0.995771,0.995634,clean (repaired in Part A of this notebook)
+vgg16,val,8149,0.017232,0.993619,0.992351,0.993384,0.992792,clean (repaired in Part A of this notebook)
+vgg16,test,8136,0.028616,0.991642,0.989659,0.989318,0.989415,clean (repaired in Part A of this notebook)

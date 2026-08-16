@@ -1,0 +1,175 @@
+{
+  "model": "squeezenet1_1",
+  "arch": "SqueezeNet",
+  "params_total": 730191,
+  "params_trainable": 730191,
+  "data_source": "clean (repaired in Part A of this notebook)",
+  "data_root": "c:\\Users\\Welcome\\Desktop\\npn\\crop-disease\\raw",
+  "leakage_fixed": true,
+  "seed": 42,
+  "epochs": 20,
+  "lr": 0.0001,
+  "batch_size": 32,
+  "img_size": 224,
+  "class_weighted": true,
+  "amp": true,
+  "best_epoch": 18,
+  "best_val_macro_f1": 0.981627,
+  "n_classes": 15,
+  "class_names": [
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato_Bacterial_spot",
+    "Tomato_Early_blight",
+    "Tomato_Late_blight",
+    "Tomato_Leaf_Mold",
+    "Tomato_Septoria_leaf_spot",
+    "Tomato_Spider_mites_Two_spotted_spider_mite",
+    "Tomato__Target_Spot",
+    "Tomato__Tomato_YellowLeaf__Curl_Virus",
+    "Tomato__Tomato_mosaic_virus",
+    "Tomato_healthy"
+  ],
+  "splits": {
+    "train": {
+      "n": 14434,
+      "loss": 0.032373,
+      "accuracy": 0.988499,
+      "macro_precision": 0.987883,
+      "macro_recall": 0.989213,
+      "macro_f1": 0.988406
+    },
+    "val": {
+      "n": 3096,
+      "loss": 0.048574,
+      "accuracy": 0.980297,
+      "macro_precision": 0.98161,
+      "macro_recall": 0.982157,
+      "macro_f1": 0.981627
+    },
+    "test": {
+      "n": 3092,
+      "loss": 0.055578,
+      "accuracy": 0.979625,
+      "macro_precision": 0.979115,
+      "macro_recall": 0.980852,
+      "macro_f1": 0.979507
+    }
+  },
+  "per_class_test": {
+    "Pepper__bell___Bacterial_spot": {
+      "support": 150,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "recall_ci95": 0.0
+    },
+    "Pepper__bell___healthy": {
+      "support": 221,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "recall_ci95": 0.0
+    },
+    "Potato___Early_blight": {
+      "support": 150,
+      "precision": 0.993377,
+      "recall": 1.0,
+      "f1": 0.996678,
+      "recall_ci95": 0.0
+    },
+    "Potato___Late_blight": {
+      "support": 150,
+      "precision": 0.993333,
+      "recall": 0.993333,
+      "f1": 0.993333,
+      "recall_ci95": 0.013
+    },
+    "Potato___healthy": {
+      "support": 23,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "recall_ci95": 0.0
+    },
+    "Tomato_Bacterial_spot": {
+      "support": 319,
+      "precision": 0.987461,
+      "recall": 0.987461,
+      "f1": 0.987461,
+      "recall_ci95": 0.0122
+    },
+    "Tomato_Early_blight": {
+      "support": 150,
+      "precision": 0.928571,
+      "recall": 0.953333,
+      "f1": 0.940789,
+      "recall_ci95": 0.0338
+    },
+    "Tomato_Late_blight": {
+      "support": 285,
+      "precision": 0.962069,
+      "recall": 0.978947,
+      "f1": 0.970435,
+      "recall_ci95": 0.0167
+    },
+    "Tomato_Leaf_Mold": {
+      "support": 143,
+      "precision": 0.992908,
+      "recall": 0.979021,
+      "f1": 0.985915,
+      "recall_ci95": 0.0235
+    },
+    "Tomato_Septoria_leaf_spot": {
+      "support": 265,
+      "precision": 0.981132,
+      "recall": 0.981132,
+      "f1": 0.981132,
+      "recall_ci95": 0.0164
+    },
+    "Tomato_Spider_mites_Two_spotted_spider_mite": {
+      "support": 251,
+      "precision": 0.980237,
+      "recall": 0.988048,
+      "f1": 0.984127,
+      "recall_ci95": 0.0134
+    },
+    "Tomato__Target_Spot": {
+      "support": 210,
+      "precision": 0.994505,
+      "recall": 0.861905,
+      "f1": 0.923469,
+      "recall_ci95": 0.0467
+    },
+    "Tomato__Tomato_YellowLeaf__Curl_Virus": {
+      "support": 481,
+      "precision": 0.997904,
+      "recall": 0.989605,
+      "f1": 0.993737,
+      "recall_ci95": 0.0091
+    },
+    "Tomato__Tomato_mosaic_virus": {
+      "support": 56,
+      "precision": 0.949153,
+      "recall": 1.0,
+      "f1": 0.973913,
+      "recall_ci95": 0.0
+    },
+    "Tomato_healthy": {
+      "support": 238,
+      "precision": 0.92607,
+      "recall": 1.0,
+      "f1": 0.961616,
+      "recall_ci95": 0.0
+    }
+  },
+  "train_minutes": 20.33,
+  "device": "NVIDIA GeForce RTX 3060",
+  "timestamp": "2026-08-15T05:23:10Z",
+  "class_weights_source": "c:\\Users\\Welcome\\Desktop\\npn\\crop-disease\\class_weights.json",
+  "torch": "2.13.0+cu126",
+  "torchvision": "0.28.0+cu126"
+}

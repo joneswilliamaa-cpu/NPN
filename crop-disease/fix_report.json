@@ -1,0 +1,41 @@
+{
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "hamming": 4,
+  "source": "c:\\Users\\Welcome\\Desktop\\npn\\crop-disease\\raw",
+  "baseline_kind": "your existing split",
+  "images_in": 41276,
+  "images_usable": 20622,
+  "images_removed": 20654,
+  "classes": 15,
+  "crops": 3,
+  "groups": 20520,
+  "split_counts": {
+    "train": 14434,
+    "val": 3096,
+    "test": 3092
+  },
+  "leakage_before": {
+    "identical_files_across_splits": 8,
+    "same_capture_across_splits": 6,
+    "same_leaf_across_splits": 24,
+    "near_identical_pairs_across_splits": 22,
+    "contaminated_eval_images": 6249,
+    "eval_images": 12382,
+    "contamination_pct": 50.468
+  },
+  "leakage_after": {
+    "identical_files_across_splits": 0,
+    "same_capture_across_splits": 0,
+    "same_leaf_across_splits": 0,
+    "near_identical_pairs_across_splits": 0,
+    "contaminated_eval_images": 0,
+    "eval_images": 6188,
+    "contamination_pct": 0.0
+  },
+  "verdict": "PASSED"
+}
