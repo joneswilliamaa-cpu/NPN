@@ -1,0 +1,10 @@
+image,prediction,confidence,second,uncertain
+data10.jpg,Strawberry___Leaf_scorch,0.2394,Peach___Bacterial_spot,True
+data2.jpg,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),0.3781,Tomato___Early_blight,True
+data3.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.3725,"Pepper,_bell___Bacterial_spot",True
+data4.jpg,"Pepper,_bell___Bacterial_spot",0.2833,Grape___Black_rot,True
+data5.jpg,Strawberry___Leaf_scorch,0.4779,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,True
+data6.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.5374,Strawberry___Leaf_scorch,True
+data8.jpg,Tomato___Early_blight,0.1728,Corn_(maize)___healthy,True
+data9.jpg,"Pepper,_bell___healthy",0.1823,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True
+image data.jpg,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.3302,Cherry_(including_sour)___Powdery_mildew,True

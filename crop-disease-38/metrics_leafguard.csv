@@ -1,0 +1,4 @@
+model,split,n,loss,accuracy,macro_precision,macro_recall,macro_f1,data_source
+leafguard,train,37997,1.724905,0.996289,0.995881,0.997395,0.996613,clean (repaired in Part A of this notebook)
+leafguard,val,8149,1.68479,0.994478,0.993926,0.996418,0.995133,clean (repaired in Part A of this notebook)
+leafguard,test,8136,1.683415,0.993609,0.990625,0.994685,0.992555,clean (repaired in Part A of this notebook)

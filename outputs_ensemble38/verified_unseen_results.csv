@@ -1,0 +1,16 @@
+image,true,predicted,confidence,correct,flagged_uncertain
+0_Pepper__bell___Bacterial_spot.jpg,"Pepper,_bell___Bacterial_spot",Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.705,False,False
+8_pepper_bell_healthy.jpg,"Pepper,_bell___healthy","Pepper,_bell___healthy",0.8172,True,False
+9_potato-early-blight-leaves.jpg,Potato___Early_blight,Strawberry___Leaf_scorch,0.7114,False,False
+11_potato_healthy.jpg,Potato___healthy,Strawberry___healthy,0.3133,False,True
+10_potato-late-blight.jpg,Potato___Late_blight,Tomato___Late_blight,0.6534,False,True
+6_Tomato__Target_Spot.jpg,Tomato___Target_Spot,Apple___Apple_scab,0.2616,False,True
+4_Tomato_Mosaic_Virus.jpg,Tomato___Tomato_mosaic_virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.6967,False,False
+2_Tomato_-_Yellow_Leaf_Curl_Virus1.jpg,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.4178,True,True
+1_Tomato-Bacterial-Leaf-Spot.jpg,Tomato___Bacterial_spot,Tomato___Early_blight,0.4591,False,True
+12_tomato_early_blight.jpg,Tomato___Early_blight,Tomato___Early_blight,0.6114,True,True
+13_tomato_healthy.jpg,Tomato___healthy,Tomato___Late_blight,0.4853,False,True
+3_Tomato_Late_blight.jpg,Tomato___Late_blight,Tomato___Early_blight,0.6376,False,True
+7_leaf_mold_tomato2x1200.jpg,Tomato___Leaf_Mold,Corn_(maize)___healthy,0.2716,False,True
+14_tomato_septoria_leaf_spot.jpg,Tomato___Septoria_leaf_spot,Tomato___Early_blight,0.5649,False,True
+5_Tomato_Spider_mites_Two_spotted_spider_mite.jpg,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Spider_mites Two-spotted_spider_mite,0.8042,True,False

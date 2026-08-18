@@ -1,0 +1,63 @@
+==============================================================================
+  FINAL REPORT - 38-class closed-set crop disease classifier
+==============================================================================
+Dataset source        : provided PlantVillage 38-class data only (C:\Users\Welcome\Desktop\npn\plantvillage_full\raw\color)
+                        no external datasets were downloaded or used
+Images scanned        : 54,305
+Unreadable removed    : 0
+Exact duplicates      : 21
+Final usable images   : 54,284  in 53,998 leakage groups
+Classes               : 38
+
+Train / Val / Test    : 37,998 / 8,150 / 8,136   (70%/15%/15%, grouped + stratified, seed 42)
+
+Leakage checks (all must be zero):
+   identical_files_across_splits          0
+   same_capture_across_splits             0
+   same_leaf_across_splits                0
+   groups_spanning_splits                 0
+   near_duplicate_pairs_crossing_splits   0
+
+Training configuration:
+   epochs 20 | batch 32 | img 224 | AdamW lr=0.0001 wd=0.0001
+   weighted CrossEntropyLoss (label smoothing 0.05); no weighted sampler
+   shuffled training loader, fresh generator seeded 42 per model
+   ReduceLROnPlateau on VAL macro-F1 (factor 0.5, patience 3) | AMP True
+   stronger augmentation for 10 classes with <500 train images
+Pretrained weights    : False  (trained from scratch on the supplied images only)
+
+Per-model best validation macro-F1 (used for checkpoint selection):
+   densenet121    epoch 19   val macro-F1 0.9778
+   resnet18       epoch 20   val macro-F1 0.9875
+   googlenet      epoch 19   val macro-F1 0.9908
+Best individual model : googlenet  (test macro-F1 0.9908)
+
+Ensemble weights      : densenet121=0.40, resnet18=0.30, googlenet=0.30
+   selected on the VALIDATION split only; test data was not loaded until section H
+Ensemble val macro-F1 : 0.9932
+Ensemble TEST macro-F1: 0.9929   (accuracy 0.9941)
+Confidence threshold  : 0.6877  (5th percentile of correct validation predictions)
+
+Lowest per-class test recall (ensemble):
+   Tomato___Target_Spot                             n=210   recall  95.2%  95% CI [91.5%, 97.4%]
+   Corn_(maize)___Northern_Leaf_Blight              n=148   recall  95.9%  95% CI [91.4%, 98.1%]
+   Corn_(maize)___Cercospora_leaf_spot Gray_leaf_   n=77    recall  96.1%  95% CI [89.2%, 98.7%]
+   Tomato___Late_blight                             n=285   recall  96.8%  95% CI [94.1%, 98.3%]
+   Tomato___Early_blight                            n=150   recall  98.7%  95% CI [95.3%, 99.6%]
+
+Possible label conflicts found in the supplied data:
+   byte-identical images under >1 class : 0   (cross_class_exact_duplicates.csv)
+      -> 0 file(s) quarantined; no arbitrary label kept
+   near-duplicate pairs, differing label: 30   (cross_class_near_duplicates.csv)
+   These cannot inflate a score, but they cap the accuracy any model can reach.
+
+Limitations:
+   The model is evaluated on unseen held-out images from the same 38 supported
+   classes and dataset distribution. It does not claim to classify diseases outside
+   the 38 classes.
+   * Closed set: every input is assigned one of 38 labels. The confidence threshold
+     flags unlikely inputs but is not an open-set detector.
+   * Small classes carry wide recall intervals - quote the interval, not the point.
+   * PlantVillage is uniform studio photography of single detached leaves. Accuracy
+     on field photographs taken in other conditions will be substantially lower.
+==============================================================================

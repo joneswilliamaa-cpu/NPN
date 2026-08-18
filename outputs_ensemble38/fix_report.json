@@ -1,0 +1,37 @@
+{
+  "data_path": "C:\\Users\\Welcome\\Desktop\\npn\\plantvillage_full\\raw\\color",
+  "images_scanned": 54305,
+  "unreadable": 0,
+  "exact_duplicates_removed": 21,
+  "images_usable": 54284,
+  "classes": 38,
+  "groups": 53998,
+  "grouping_edges": {
+    "near_identical": 217,
+    "skipped_cross_class": 30,
+    "same_leaf": 68,
+    "same_capture": 1
+  },
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "seed": 42,
+  "split_counts": {
+    "train": 37998,
+    "val": 8150,
+    "test": 8136
+  },
+  "leakage_after_split": {
+    "identical_files_across_splits": 0,
+    "same_capture_across_splits": 0,
+    "same_leaf_across_splits": 0,
+    "groups_spanning_splits": 0
+  },
+  "near_duplicate_pairs_crossing_splits": 0,
+  "cross_class_exact_duplicate_hashes": 0,
+  "cross_class_exact_duplicate_files_quarantined": 0,
+  "cross_class_near_duplicate_pairs": 30,
+  "verdict": "PASSED"
+}
